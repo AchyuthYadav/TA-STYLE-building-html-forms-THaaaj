@@ -86,6 +86,7 @@ body {
     border-radius: 8px;
     margin-bottom: 20px;
     text-transform: capitalize;
+    margin-top: 100px;
 }
 form {
     width: 450px;
@@ -107,11 +108,21 @@ form {
     border-color: grey;
 }
 
-button {
+.button {
     display: block;
     width: 100%;
     padding: 10px 10px;
     margin: 20px 0 20px 0;
     background-color: rgb(94,204,138);
     border-radius: 5px; 
+    text-transform: uppercase;
+}
+p {
+    font-size: 10px;
+    text-transform: capitalize;
+}
+a {
+    font-size: 10px;
+    color: red;
+    text-transform: capitalize;
 }
