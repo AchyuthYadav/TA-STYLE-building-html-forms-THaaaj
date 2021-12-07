@@ -1,0 +1,137 @@
+<!-- - Create a page according to the layout shown below.
+
+![Building HTML forms Assignment level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/building-html-forms/ex-2.png)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/fbf095934a.js" crossorigin="anonymous"></script>
+    <title>Assignment2</title>
+</head>
+<body>
+    <header  class="box flex">
+        <div class="img_flex">
+            <a href="">
+                <img src="./assets/logo.png" alt="logo.png">
+            </a>
+            <h1>journey</h1>
+        </div>
+            <nav class="navbar">
+                <ul  class="flex">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="#">top destinations</a></li>
+                    <li><a href="#">recommanded places</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <section class="bg container text">
+            <h2>lets begin</h2>
+            <div class="dot"></div>
+            <div class="dot1"></div>
+            <div class="dot"></div>
+            <p>we assist you to choose the best</p>
+            <i class="fas fa-chevron-circle-down"></i>
+            <div class="bg_b0x"> 
+                <form class="form"action="./index.html" method="post"></form>   
+                <fieldset>
+                    
+                   <label for="choose your destinations"choose your destinations:></label>
+                   <input type="text" id="choose your destinations" placeholder="type your destination">
+                </fieldset>
+            </div>
+        </section>
+
+        <section class="container">
+            <article class="article1">
+                <h2>your journey is your priority</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit natus id minus hic, et illum at labore accusantium, ea deleniti iure delectus quia ad eius repellendus est corrupti ab eaque.</p>
+                <button>continue explore</button>
+            </article> 
+        </section>
+
+        <section class="container article2 flex">
+            <img src="./assets/tm-img-01.jpg" alt="">
+            <div class="box1">
+                <h3>europe's most visited places</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, excepturi atque mollitia, tempore error quas inventore explicabo ab numquam similique fugit praesentium vero soluta molestias voluptatem est! Recusandae, qui ipsa?</p>
+                <button>continue reading</button>
+            </div>
+        </section>
+
+        <section class="container article2 flex">
+           
+            <div class="box1">
+                <h3>europe's most visited places</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, excepturi atque mollitia, tempore error quas inventore explicabo ab numquam similique fugit praesentium vero soluta molestias voluptatem est! Recusandae, qui ipsa?</p>
+                <button>continue reading</button>
+            </div>
+            <img src="./assets/tm-img-02.jpg" alt="">
+        </section>
+
+        <section class="container article2 flex">
+            <img src="./assets/tm-img-03.jpg" alt="">
+            <div class="box1">
+                <h3>europe's most visited places</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, excepturi atque mollitia, tempore error quas inventore explicabo ab numquam similique fugit praesentium vero soluta molestias voluptatem est! Recusandae, qui ipsa?</p>
+                <button>continue reading</button>
+            </div>
+        </section>
+
+        <section class="container continentimg">
+            <img src="./assets/north-america.png" alt="">
+            <img src="./assets/south-america.png" alt="">
+            <img src="./assets/europe.png" alt="">
+            <img src="./assets/asia.png" alt="">
+            <img src="./assets/africa.png" alt="">
+            <img src="./assets/australia.png" alt="">
+            <img src="./assets/antartica.png" alt="">
+        </section>
+
+        <section class="container">
+            <div>
+                <a href="">
+                    <img src="./assets/tm-img-06.jpg" alt="">
+                </a>
+               <h3>asia resort hotel</h3>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. alias odit et veritatis sint sunt, blanditiis, nostrum voluptas fuga explicabo harum! Culpa unde amet necessitatibus mollitia?</p>
+            </div>
+
+            <div>
+                <a href="">
+                    <img src="./assets/tm-img-07.jpg" alt="">
+                </a>
+                <h3>asia resort hotel</h3>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. alias odit et veritatis sint sunt, blanditiis, nostrum voluptas fuga explicabo harum! Culpa unde amet necessitatibus mollitia?</p>
+            </div>
+
+            <div>
+                <a href="">
+                    <img src="./assets/tm-img-05.jpg" alt="">
+                </a>
+                <h3>asia resort hotel</h3>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. alias odit et veritatis sint sunt, blanditiis, nostrum voluptas fuga explicabo harum! Culpa unde amet necessitatibus mollitia?</p>
+            </div>
+            <button>show more places</button>
+        </section>
+
+        <section class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13503.55258991799!2d76.355385!3d32.2072445!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1638785727790!5m2!1sen!2sin" width="1100" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </section>
+    </main>
+
+    <footer class="c">
+        <small> copyright &copy 2020 your company </small>
+    </footer>
+</body>
+</html>
